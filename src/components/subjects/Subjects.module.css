@@ -1,0 +1,23 @@
+.subjects{
+  background-image: url('../../Assets/fondo\ asignaturas.png');
+ 
+}
+.containerSubjects{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,379px);
+  gap: 30px;
+  justify-content: center;
+}
+.tittle{
+  width: 100%;
+  text-align: center;
+  height: 90px ;
+  line-height: 90px;
+  margin-bottom: 20px;
+}
+.tittle h2{
+font-family: Playfair Display;
+font-size: 40px;
+
+
+}

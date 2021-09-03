@@ -1,0 +1,29 @@
+.tutors{
+ 
+  background-image: url('../../Assets/fondo\ tutores.png');
+  
+
+}
+.tutorsCards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,300px);
+  justify-content: center;
+  background-color: chartreuse;
+  gap:40px;
+
+}
+
+.containerTittle{
+ width: 100%;
+ text-align: center;
+ height: 70px;
+ line-height: 70px;
+
+}
+.containerTittle h3{
+  font-family: Playfair Display;
+  font-size: 35px;
+ 
+  
+
+}

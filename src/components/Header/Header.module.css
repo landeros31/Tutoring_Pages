@@ -1,0 +1,56 @@
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.header{
+  width: 100%;
+  height: 13vh;
+  background: rgba(69, 161, 247, 0.66);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.containerLogo{
+  width: 260px;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.containerImgLogo{
+  width: 20%;
+  height: 100%;
+}
+.containerImgLogo img{
+  width: 100%;
+  height: 100%;
+}
+
+.containerTittle{
+  width: 80%;
+  text-align: center;
+}
+.containerTittle h4{
+font-family: 'Playfair Display', serif;
+font-size: 20px;
+line-height: 18px;
+}
+.containerTittle h5{
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+   line-height: 19px;
+   padding-left: 29px;
+  }
+
+.hambur{
+  font-size: 45px;
+  height: 70%;
+  line-height: 63px;
+  margin-right: 20px;
+  color: white;
+}
