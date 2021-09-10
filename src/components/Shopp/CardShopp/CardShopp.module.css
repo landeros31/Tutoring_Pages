@@ -1,0 +1,116 @@
+.cardshopp{
+width: 310px;
+border: 1px solid black;
+border-radius: 10px;
+}
+.containerTittle{
+ 
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerTittle h3{
+  font-family: Playfair Display;
+  font-size: 25px;
+  line-height: 40px;
+  
+}
+.containerImag{
+ width: 100%;
+ height: 256px;
+}
+.containerImag img{
+  width: 100%;
+  height: 100%;
+}
+.adds{
+display: flex;
+background-color: white;
+width: 100%;
+height: 80px;
+justify-content: space-around;
+line-height: 80px;
+align-items: center;
+border-radius: 10px;
+}
+.adds h3{
+  font-size: 18px;
+}
+
+@media(min-width:1024px){
+  .cardshopp{
+    width: 230px;
+    
+    }
+    .containerTittle{
+ 
+     
+      height: 60px;
+      line-height: 80px;
+      
+    }
+    .containerTittle h3{
+     
+      font-size: 18px;
+      line-height: 30px;
+      
+    }
+    .containerImag{
+     width: 100%;
+     height: 200px;
+    }
+    
+    .adds{
+    
+    background-color: white;
+    height: 60px;
+    line-height: 60px;
+   
+    }
+    .adds h3{
+      font-size: 15px;
+    }
+
+}
+
+@media(min-width:1240px){
+
+  .cardshopp{
+    width: 280px;
+    
+    }
+    .containerTittle{
+ 
+     
+      height: 70px;
+      line-height: 80px;
+      
+    }
+    .containerTittle h3{
+     
+      font-size: 22px;
+      line-height: 30px;
+      
+    }
+    .containerImag{
+     width: 100%;
+     height: 230px;
+    }
+    
+    .adds{
+    
+    background-color: white;
+    height: 70px;
+     font-size: 15px;
+    line-height: 60px;
+   
+    }
+    .adds h3{
+      font-size: 20px;
+    }
+}

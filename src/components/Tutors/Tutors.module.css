@@ -8,7 +8,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill,300px);
   justify-content: center;
-  background-color: chartreuse;
   gap:40px;
 
 }
@@ -26,4 +25,44 @@
  
   
 
+}
+
+@media(min-width:640px){
+
+  .tutorsCards{
+    gap:20px
+  }
+}
+@media(min-width:768px){
+
+  .tutorsCards{
+    gap:40px
+  }
+}
+@media(min-width:1024px){
+
+  .tutorsCards{
+    grid-template-columns: repeat(auto-fill,340px);
+    gap:80px
+  }
+  .containerTittle h3{
+    font-size: 42px;
+  
+  }
+}
+@media(min-width:1180px){
+
+  .tutorsCards{
+    grid-template-columns: repeat(auto-fill,230px);
+    margin-left: 20%;
+    gap: 80px;
+    
+  }
+}
+@media(min-width:1240px){
+
+  .tutorsCards{
+    gap: 120px;
+    
+  }
 }

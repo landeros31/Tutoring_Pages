@@ -1,1 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.backgrounds{
+background-color: rgb(19, 139, 19);
+display: flex;
+justify-content: center;
+}

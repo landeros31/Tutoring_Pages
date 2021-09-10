@@ -1,0 +1,10 @@
+.button{
+background: #42A840;
+border-radius: 10px;
+width: 240px;
+height: 60px;
+margin-bottom: 30px;
+font-family: Playfair Display;
+color: white;
+font-size: 25px;
+}

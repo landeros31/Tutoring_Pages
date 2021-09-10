@@ -44,3 +44,58 @@ font-size: 35px;
   font-size: 30px;
   color: #FFFFFF;
 }
+
+@media(min-width:640px){
+
+  .cardsubjects{
+
+    width: 300px;
+  }
+}
+@media(min-width:1024px){
+
+  .cardsubjects{
+ 
+    width: 220px;
+    height: 320px;
+    
+  }
+  .containerTittle{
+   
+
+    height: 64px;
+   
+    
+  }
+  .containerTittle h3{
+  font-size: 25px;
+  line-height: 64px;
+  
+  
+  }
+  .containerImag{
+  
+    height: 190px;
+  
+  }
+  
+  .containerMore{
+    height: 67px;
+
+    
+  }
+  .containerMore h4{
+    font-size: 20px;
+    line-height: 67px;
+  }
+}
+@media(min-width:1240px){
+
+  .cardsubjects{
+ 
+    width: 260px;
+    height: 320px;
+    
+  }
+  
+}

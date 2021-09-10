@@ -1,0 +1,30 @@
+.selection{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.containerServices{
+  font-family: Playfair Display;
+  font-size: 17px;
+}
+.containerMenu{
+  font-family: Playfair Display;
+  font-size: 22px;
+  display: flex;
+  margin-bottom: 25px;
+}
+.containerMenu h5{
+margin-right: 10px;
+}
+.button{
+
+  display: flex;
+  background-color: white;
+  width: 140px;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+}

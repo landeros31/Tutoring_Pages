@@ -1,6 +1,5 @@
 import React from 'react'
 import style from './Header.module.css'
-import {FaBars} from 'react-icons/fa';
 import logo from '../../Assets/logo.png'
 function Header() {
   return (
@@ -15,7 +14,15 @@ function Header() {
               <h5>Lo que Tu Necesitas</h5>           
           </div>
       </div >
-      <div className={style.hambur}>  <FaBars/> </div>
+      <div className={style.menu}> 
+      <ul>
+        <li>Clases</li>
+        <li>Tutores</li>
+        <li>Nosotros</li>
+        <li>Contactos</li>
+      </ul>
+      
+       </div>
     </div>
   )
 }

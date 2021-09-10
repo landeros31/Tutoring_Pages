@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 87vh;
+  height: 85vh;
 
   display: flex;
   justify-content: flex-end;
@@ -33,10 +33,53 @@ opacity: 1;
   font-size: 40px;
   line-height: 25px;
   margin-left: 20px;
+  color: white;
 }
 .button h3{
   font-family: Playfair Display;
 font-size: 20px;
 line-height: 33px;
 margin-left: 10px;
+}
+@media(min-width:640px){
+  .principal h4{
+ 
+  font-size:42px;
+  margin-bottom: 15px;
+ 
+  }
+}
+@media(min-width:1024px){
+  
+  
+  .principal{
+    width: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+  }
+  .principal h4{
+   
+  font-size:50px;
+  margin-bottom:20px;
+ 
+  }
+  .button{
+    margin-bottom:130px;
+  width: 340px;
+  height: 60px;
+  margin-bottom: 60px;
+  
+  }
+  .whatsapp{
+    font-size: 50px;
+    line-height: 25px;
+    margin-left: 20px;
+  }
+  .button h3{
+  font-size: 27px;
+  line-height: 33px;
+  margin-left: 10px;
+  color: white;
+  }
 }

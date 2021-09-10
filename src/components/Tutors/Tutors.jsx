@@ -1,5 +1,5 @@
 import React from 'react'
-import TutorsData from '../../Tutors'
+import TutorsData from '../../data/Tutors'
 import style from './Tutors.module.css'
 import TutorCard from './TutorCard/TutorCard'
 

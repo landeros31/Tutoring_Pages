@@ -1,0 +1,9 @@
+.spanish{
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ background-image: url('../../../Assets/fondoShop.PNG');
+
+ }

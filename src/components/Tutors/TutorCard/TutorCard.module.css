@@ -40,3 +40,37 @@ border-radius: 50%;
   margin-top: 20px;
 
 }
+
+@media(min-width:640px){
+
+.tutorCard{
+width: 300px;
+
+}
+
+}
+@media(min-width:1024px){
+
+  .tutorCard{
+  width: 280px;
+  margin-bottom: 40px;
+  }
+  .containerimg{
+
+    width: 140px;
+    height: 140px;
+    
+    
+    }
+    
+    .tutorCard h2{
+      
+      font-size: 25px;
+      
+    }
+    .tutorCard h3{
+      font-size: 20px;
+      
+    
+    }
+  }

@@ -1,0 +1,66 @@
+.tutorCard{
+
+  width: 190px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+
+  
+
+}
+  .containerimg{
+  
+  width: 80px;
+  height: 70px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  
+  }
+  .containerimg img{
+    width: 100%;
+    height: 100%;
+  }
+  .tutorCard h2{
+    
+    font-family: Playfair Display;
+    margin-top: 20px;
+    color: #FF7A00;
+  }
+  .tutorCard h3{
+    font-family: Playfair Display;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  @media(min-width:640px){
+  .tutorCard{
+
+    width: 90%;
+  }
+
+
+  }
+  @media(min-width:1024px){
+    .tutorCard{
+      width: 40%;
+      margin-right: 40px;
+      margin-left: 20px;
+     
+    }
+    .containerimg{
+      width: 70px;
+      }
+
+
+      .tutorCard h3{
+        font-size: 18px;
+ 
+      }
+  
+    }

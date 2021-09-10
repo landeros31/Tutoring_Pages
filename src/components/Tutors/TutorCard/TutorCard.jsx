@@ -2,7 +2,6 @@ import React from 'react'
 import style from './TutorCard.module.css'
 
 function TutorCard(tcard) {
-  console.log(tcard);
   return (
     <div className={style.tutorCard}>
        <div className={style.containerimg}><img src={tcard.image} alt={tcard.name} /></div>
