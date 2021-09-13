@@ -1,5 +1,47 @@
-.object{
+.orderdata{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 0.3fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 1 / 5 / 2 / 6; 
+       width: 15px;
+       font-size: 10px;
+       background-color: transparent;
+  }
 
-  display: flex;
-  font-size: 20px;
+.orderdata h2, .orderdata h3{
+  font-size: 14px;
+}
+
+.select{
+
+display: flex;
+justify-content: center;
+}
+.date{
+  color:red;
+}
+@media(min-width:640px){
+  .orderdata h3,.orderdata h2{
+
+    font-size: 20px;
+  }
+  .div1 { 
+    width: 18px;
+    font-size: 15px;
+}
+
+}
+@media(min-width:1024px){
+  .orderdata h3,.orderdata h2{
+
+    font-size: 22px;
+  }
+  .div1 { 
+    width: 25px;
+    font-size: 20px;
+}
 }

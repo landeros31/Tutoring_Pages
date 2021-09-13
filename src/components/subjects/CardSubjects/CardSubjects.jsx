@@ -8,7 +8,7 @@ function CardSubjects(card) {
     <div className={style.cardsubjects} >
       <div className={style.containerTittle} > <h3>{card.tittle} </h3> </div>
      <div className={style.containerImag}><img src={card.images} alt={card.moreInfo} /></div>
-     <Link to={card.link}>
+     <Link to={card.link} className={style.lin}>
      <div className={style.containerMore}> <h4>{card.moreInfo} </h4></div>
      </Link>
      

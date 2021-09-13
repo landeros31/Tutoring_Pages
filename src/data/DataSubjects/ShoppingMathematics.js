@@ -5,28 +5,28 @@ import Examenes from '../../Assets/Examenes.jpg'
 
 const shopDataMathematics =[
   {
-    "id": 1,
+    "id": "1m",
     "name":"Clase prensencial",
     "img": Presencial,
     "description": "$ 20.000/ hora",
     "subject":"matematicas"
   },
   {
-    "id": 2,
+    "id": "2m",
     "name":"Clase virtual",
     "img": Virtual,
     "description": "$ 20.000/ hora",
     "subject":"matematicas"
   },
   {
-    "id": 3,
+    "id": "3m",
     "name":"Solucion de tareas",
     "img": Tareas,
     "description": "Desde $ 20.000",
     "subject":"matematicas"
   },
   {
-    "id": 4,
+    "id": "4m",
     "name":"Preparacion para examenes",
     "img": Examenes,
     "description": "$ 20.000/ hora",

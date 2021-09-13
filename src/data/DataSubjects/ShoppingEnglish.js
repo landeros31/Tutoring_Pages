@@ -5,28 +5,28 @@ import Examenes from '../../Assets/Examenes.jpg'
 
 const shopDataEnglish =[
   {
-    "id": 1,
+    "id": "1i",
     "name":"Clase prensencial",
     "img": Presencial,
     "description": "$ 20.000/ hora",
     "subject":"ingles"
   },
   {
-    "id": 2,
+    "id": "2i",
     "name":"Clase virtual",
     "img": Virtual,
     "description": "$ 20.000/ hora",
     "subject":"ingles"
   },
   {
-    "id": 3,
+    "id": "3i",
     "name":"Solucion de tareas",
     "img": Tareas,
     "description": "Desde $ 20.000",
     "subject":"ingles"
   },
   {
-    "id": 4,
+    "id": "4i",
     "name":"Preparacion para examenes",
     "img": Examenes,
     "description": "$ 20.000/ hora",

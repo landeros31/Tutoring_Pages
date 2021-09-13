@@ -6,12 +6,12 @@
 
 }
 .containerServices{
-  font-family: Playfair Display;
-  font-size: 17px;
+  font-family: 'Quando';
+    font-size: 17px;
 }
 .containerMenu{
-  font-family: Playfair Display;
-  font-size: 22px;
+  font-family: 'Quando';
+    font-size: 22px;
   display: flex;
   margin-bottom: 25px;
 }

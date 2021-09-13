@@ -6,7 +6,7 @@ import Examenes from '../Assets/Examenes.jpg'
 
 const shopDataEspanish =[
 {
-  "id": 1,
+  "id": "1e",
   "name":"Clase prensencial",
   "img": Presencial,
   "description": "$ 20.000/ hora",
@@ -14,21 +14,21 @@ const shopDataEspanish =[
 
 },
 {
-  "id": 2,
+  "id": "2e",
   "name":"Clase virtual",
   "img": Virtual,
   "description": "$ 20.000/ hora",
   "subject":"Español"
 },
 {
-  "id": 3,
+  "id": "3e",
   "name":"Solucion de tareas",
   "img": Tareas,
   "description": "Desde $ 20.000",
   "subject":"Español"
 },
 {
-  "id": 4,
+  "id": "4e",
   "name":"Preparacion para examenes",
   "img": Examenes,
   "description": "$ 20.000/ hora",

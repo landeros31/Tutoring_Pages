@@ -1,0 +1,62 @@
+.state{
+  background-color: #2F2C2C;
+  width: 60px;
+  height: 30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.button{
+  width: 20px;
+  
+  font-size: 20px;
+}
+.select{
+  width: 20px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+.min{
+  font-size: 20px;
+  width: 20px;
+  height: 100%;
+  background-color: #2F2C2C;
+  color: white;
+  line-height: 100%;
+  text-align: center;
+
+}
+
+@media(min-width:640px){
+  .state{
+    width: 99px;
+   
+  }
+  .button{
+    width: 33px;
+    
+    
+  }
+  .select{
+    width: 33px;
+   
+  }
+  .min{
+    font-size: 25px;
+    width: 33px;
+    
+    
+   
+  
+  }
+  
+}
+@media(min-width:1024px){
+  .order h3{
+
+    font-size: 24px;
+  }
+
+}

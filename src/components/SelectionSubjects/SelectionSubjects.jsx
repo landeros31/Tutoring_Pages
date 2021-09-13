@@ -12,7 +12,6 @@ function SelectionSubjects() {
 
   const openclose=()=>{
    setDropdown(!dropdown)
-   console.log("si")
 
   }
 

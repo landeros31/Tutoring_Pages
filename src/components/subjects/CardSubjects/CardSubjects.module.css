@@ -2,7 +2,7 @@
  
   width: 379px;
   height: 437px;
-  border: 1px solid black;
+  border: 1px solid rgb(161, 157, 157);
   margin-bottom: 30px;
   
 }
@@ -12,12 +12,12 @@
   width: 100%;
   height: 89px;
   text-align: center;
-  line-height: 89px;
   
 }
 .containerTittle h3{
-  font-family: Playfair Display;
-font-size: 35px;
+  font-family: 'Quando';
+  font-size: 35px;
+  line-height: 80px;
 
 
 }
@@ -37,12 +37,16 @@ font-size: 35px;
   height: 92px;
   background-color: black;
   text-align: center;
-  line-height: 92px;
+  
 }
 .containerMore h4{
-  font-family: Playfair Display;
-  font-size: 30px;
+  font-family: 'Quando';
+    font-size: 30px;
   color: #FFFFFF;
+  line-height: 92px;
+}
+.lin{
+  color: transparent;
 }
 
 @media(min-width:640px){

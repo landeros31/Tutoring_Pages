@@ -6,19 +6,18 @@
 
 .tittle h1{
   padding-top: 30px;
-  font-family: 'Playfair Display';
-}
+  font-family: 'Quando';}
 
 .tittle{
   margin-bottom: 50px;
 }
 .tittle h2{
-  font-family: 'Playfair Display';
-  margin-bottom: 30px;
+  font-family: 'Quando';
+    margin-bottom: 30px;
 }
 .tittle p{
-  font-family: 'Playfair Display';
- font-size: 15px;
+  font-family: 'Quando';
+   font-size: 15px;
 
 }
 .buy{
@@ -26,13 +25,13 @@ margin-bottom: 40px;
 
 }
 .buy h2{
-  font-family: 'Playfair Display', serif;
-  font-size: 25px;
+  font-family: 'Quando';
+    font-size: 25px;
   margin-bottom: 20px;
 }
 .buy p{
-  font-family: 'Playfair Display', serif;
-  font-size: 25px;
+  font-family: 'Quando';
+    font-size: 25px;
 }
 .contact{
   display: flex;
@@ -46,8 +45,8 @@ margin-bottom: 40px;
   
 }
 .contact h4{
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
+  font-family: 'Quando';
+    font-size: 20px;
 }
 .copy{
   display: flex;
